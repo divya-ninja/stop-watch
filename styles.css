@@ -5,4 +5,28 @@
     height: 20rem;
     border-radius: 2em;
     background-color: rgb(202, 208, 214);
+    box-shadow: 15px 15px 8px #888888;
+}
+
+.timer{
+    padding-top: 3em;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2.5em;
+}
+
+button{
+    width: 8rem;
+    height: 4rem;
+    border: none;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    color: #888888;
+    font-weight: bold;
+    box-shadow: 10px 10px 10px #888888;;
 }
