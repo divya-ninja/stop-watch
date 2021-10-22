@@ -8,18 +8,25 @@
     <title>Stop Watch</title>
 </head>
 <body>
-    
+    <!-- heading -->
+    <p>Stop Watch</p>
+
+    <!-- container of stopwatch -->
     <div class="container">
+
+        <!-- timer -->
         <div class="timer">
-            <h1><span>00</span> : <span>00</span> : <span>00</span></h1>
+            <h1><span id="minutes">00</span> : <span id="seconds">00</span> : <span id="tens">00</span></h1>
         </div>
+
+        <!-- buttons -->
         <div class="buttons">
-            <button>Start</button>
-            <button>Stop</button>
-            <button>Reset</button>
+            <button id="start" onclick="startTimer()">Start</button>
+            <button id="stop" onclick="stopTimer()">Stop</button>
+            <button id="reset" onclick="resetTimer()">Reset</button>
         </div>
     </div>
 
-    <script src="script.js" type="text/javascript"></script>
+    <script src="index.js" type="text/javascript"></script>
 </body>
 </html>
